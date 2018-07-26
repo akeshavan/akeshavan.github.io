@@ -6,6 +6,9 @@ import Projects from '@/components/Projects';
 import About from '@/components/About';
 import Publications from '@/components/Publications';
 import Teaching from '@/components/Teaching';
+import Talks from '@/components/Talks';
+import Leadership from '@/components/Leadership';
+import Awards from '@/components/Awards';
 
 Vue.use(Router);
 
@@ -30,6 +33,21 @@ export default new Router({
       path: '/publications',
       name: 'Publications',
       component: Publications,
+    },
+    {
+      path: '/talks',
+      name: 'Talks',
+      component: Talks,
+    },
+    {
+      path: '/leadership',
+      name: 'Leadership',
+      component: Leadership,
+    },
+    {
+      path: '/awards',
+      name: 'Awards',
+      component: Awards,
     },
     {
       path: '/cv',

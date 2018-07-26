@@ -26,6 +26,20 @@
                     </a>
                   </router-link>
 
+                  <router-link to="/publications" tag="li" exact>
+                    <a>
+                      <i class="ti-write"></i>
+                      <p>Publications</p>
+                    </a>
+                  </router-link>
+
+                  <router-link to="/talks" tag="li" exact>
+                    <a>
+                      <i class="ti-announcement"></i>
+                      <p>Talks</p>
+                    </a>
+                  </router-link>
+
                   <router-link to="/teaching" tag="li" exact>
                     <a>
                       <i class="ti-pencil"></i>
@@ -33,11 +47,17 @@
                     </a>
                   </router-link>
 
-
-                  <router-link to="/publications" tag="li" exact>
+                  <router-link to="/leadership" tag="li" exact>
                     <a>
-                      <i class="ti-announcement"></i>
-                      <p>Publications</p>
+                      <i class="ti-hand-open"></i>
+                      <p>Leadership</p>
+                    </a>
+                  </router-link>
+
+                  <router-link to="/awards" tag="li" exact>
+                    <a>
+                      <i class="ti-cup"></i>
+                      <p>Awards</p>
                     </a>
                   </router-link>
 

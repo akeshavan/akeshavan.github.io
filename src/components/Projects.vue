@@ -43,11 +43,11 @@ export default {
          'demo': 'https://yeatmanlab.github.io/AFQBrowser-demo/',
          'publication': 'https://www.nature.com/articles/s41467-018-03297-7',
          'image': 'https://media.springernature.com/lw900/springer-static/image/art%3A10.1038%2Fs41467-018-03297-7/MediaObjects/41467_2018_3297_Fig6_HTML.png',
-         'description': `A mobile optimized web application for binary image classification.
-         The current application is to quality control the Healthy Brain Network imaging dataset.`,
+         'description': `Interactive 3D visualization tool in the browser
+         for the Automated Fiber Quantification software package`,
         },
         {'name': 'appstract',
-         'tags': 'Citizen Science',
+         'tags': 'Citizen Science, Text Mining',
          'code': 'https://github.com/akeshavan/appstract',
          'demo': 'https://appstract.pub',
          'publication': null,
@@ -57,7 +57,7 @@ export default {
          neuroimaging studies of autism.`,
          'image': 'https://media.giphy.com/media/fxR1CmdpkHMVVarKlp/giphy.gif'},
         {'name': 'metacurious',
-         'tags': 'Citizen Science',
+         'tags': 'Citizen Science, Text Mining',
          'code': 'https://github.com/akeshavan/brainspell-neo-frontend',
          'demo': 'https://metacurious.org',
          'publication': null,
