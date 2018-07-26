@@ -2,17 +2,9 @@
   <div class="hello container-fluid">
     <div class="row mt-3">
       <div class="col-12">
-        <div class="card">
-          <div class="header">
-            <h4 class="title">Download my CV</h4>
-            <p class="category">
-              I have many projects and many collaborators
-            </p>
-          </div>
-          <div class="content">
-            <p>I have many projects, and many collaborators</p>
-          </div>
-        </div>
+        <iframe src="https://s3-us-west-2.amazonaws.com/akeshavan-mindcontrol/Anisha_CV_for_website.pdf"
+        width="100%" style="height: calc(100vh - 100px);">
+        </iframe>
       </div>
     </div>
   </div>

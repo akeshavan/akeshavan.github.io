@@ -29,7 +29,11 @@ export default {
         {
           title: 'OHBM Open Science SIG Hackathon Organizer',
           year: 2018,
-          desc: '',
+          desc: `Co-organizer for the OHBM Hackathon in Singapore, June 14-16.
+                 This year we hosted a
+                 training course in parallel to the hackathon, to teach
+                 beginners the basics of data science
+                for neuroimaging analysis`,
           tags: 'hackathon, neuroimaging, data science, teaching',
           location: 'Singapore',
           lesson: 'https://ohbm.github.io/hackathon2018',
