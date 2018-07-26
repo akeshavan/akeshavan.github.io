@@ -37,6 +37,15 @@ export default {
          'description': `A mobile optimized web application for binary image classification.
          The current application is to quality control the Healthy Brain Network imaging dataset.`,
         },
+        {'name': 'AFQ-Browser',
+         'tags': 'Data Visualization, Medical Imaging',
+         'code': 'https://github.com/yeatmanlab/AFQ-Browser',
+         'demo': 'https://yeatmanlab.github.io/AFQBrowser-demo/',
+         'publication': 'https://www.nature.com/articles/s41467-018-03297-7',
+         'image': 'https://media.springernature.com/lw900/springer-static/image/art%3A10.1038%2Fs41467-018-03297-7/MediaObjects/41467_2018_3297_Fig6_HTML.png',
+         'description': `A mobile optimized web application for binary image classification.
+         The current application is to quality control the Healthy Brain Network imaging dataset.`,
+        },
         {'name': 'appstract',
          'tags': 'Citizen Science',
          'code': 'https://github.com/akeshavan/appstract',

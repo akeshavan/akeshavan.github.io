@@ -68,8 +68,8 @@
                         <span v-if="sidebarOpen"> <i class="ti-close"></i> </span>
                         <span v-else> <i class="ti-menu"></i> </span>
                     </button>
-                    <a class="simple-text routename">{{routeName}}</a>
-                    <form class="form-inline my-2 my-lg- ml-3" style="display: inline;" v-if="routeName=='Projects'">
+                    <a class="simple-text routename mr-3">{{routeName}}</a>
+                    <form class="form-inline" style="display: inline;" v-if="routeName=='Projects'">
                       <input id="searchProject" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                       <!--<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>-->
                     </form>
@@ -118,6 +118,15 @@ export default {
     } else {
       this.sidebarOpen = false;
     }
+  },
+  watch: {
+    $route(to, from) {
+      if (window.innerWidth < 991) {
+        this.hideSidebar()
+      } else {
+        this.showSidebar();
+      }
+    },
   },
   methods: {
 
