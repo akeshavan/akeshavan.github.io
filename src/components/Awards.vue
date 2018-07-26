@@ -46,7 +46,7 @@ export default {
           title: 'NVIDIA Corporation GPU Seed Grant',
           year: 2017,
           desc: 'Awarded a TitanXP NVIDIA GPU for research in deep learning for medical images.',
-          tags: 'web technology',
+          tags: 'deep learning',
           location: 'Seattle, WA',
           lesson: null,
         },

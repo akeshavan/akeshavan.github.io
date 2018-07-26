@@ -209,8 +209,8 @@ export default {
 .nav>li {
   position: relative;
   display: block;
-  margin-top: 35px;
-  margin-bottom: 35px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 li a {
@@ -220,8 +220,8 @@ li a {
 }
 
 .sidebar .nav li > a {
-  padding-top: 12.5px;
-  padding-bottom: 12.5px;
+  padding-top: 12px;
+  padding-bottom: 10px;
 }
 
 .navbar {
