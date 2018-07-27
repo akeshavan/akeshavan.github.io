@@ -2,7 +2,7 @@
   <div class="hello container-fluid">
     <div class="row mt-3">
       <div class="col-12">
-        <pub-card v-for="p in publications"
+        <pub-card v-for="p in filteredPublications"
          :title="p.title"
          :authors="p.authors"
          :link="p.link"
@@ -21,6 +21,16 @@ import pubCard from './PubCard';
 export default {
   name: 'Publications',
   components: {pubCard},
+  props: ['filter'],
+  computed: {
+    filteredPublications() {
+      return this.publications.filter(def =>
+        def.title.toLowerCase().includes(this.filter.toLowerCase()) ||
+        def.authors.toLowerCase().includes(this.filter.toLowerCase()) ||
+        def.tags.toLowerCase().includes(this.filter.toLowerCase())
+      );
+    },
+  },
   data() {
     return {
       publications: [

@@ -2,7 +2,7 @@
   <div class="leadership container-fluid">
     <div class="row mt-3">
       <div class="col-12">
-        <teach-card v-for="t in teaching"
+        <teach-card v-for="t in filteredTeaching"
          :title="t.title"
          :year="t.year"
          :desc="t.desc"
@@ -23,6 +23,16 @@ import teachCard from './TeachCard';
 export default {
   name: 'Leadership',
   components: { teachCard },
+  props: ['filter'],
+  computed: {
+    filteredTeaching() {
+      return this.teaching.filter(def =>
+        def.title.toLowerCase().includes(this.filter.toLowerCase()) ||
+        def.tags.toLowerCase().includes(this.filter.toLowerCase()) ||
+        def.desc.toLowerCase().includes(this.filter.toLowerCase())
+      );
+    },
+  },
   data() {
     return {
       teaching: [

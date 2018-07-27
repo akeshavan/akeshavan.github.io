@@ -2,7 +2,7 @@
   <div class="talks container-fluid">
     <div class="row mt-3">
       <div class="col-12">
-        <teach-card v-for="t in teaching"
+        <teach-card v-for="t in filteredTeaching"
          :title="t.title"
          :year="t.year"
          :desc="t.desc"
@@ -23,6 +23,17 @@ import teachCard from './TeachCard';
 export default {
   name: 'Talks',
   components: { teachCard },
+  props: ['filter'],
+  computed: {
+    filteredTeaching() {
+      return this.teaching.filter(def =>
+        def.title.toLowerCase().includes(this.filter.toLowerCase()) ||
+        def.tags.toLowerCase().includes(this.filter.toLowerCase()) ||
+        def.desc.toLowerCase().includes(this.filter.toLowerCase()) ||
+        def.location.toLowerCase().includes(this.filter.toLowerCase())
+      );
+    },
+  },
   data() {
     return {
       teaching: [
@@ -45,7 +56,7 @@ export default {
         {
           title: 'Seminar: Leveraging Web Technology to Address Challenges with Big Data in Neuroscience',
           year: 2018,
-          desc: 'Hands on Deep Learning with Keras',
+          desc: 'One hour seminar about my recent work.',
           tags: 'citizen science, deep learning, neuroimaging, data visualization',
           location: 'CRIUGM, University of Montreal',
           lesson: '',
@@ -53,7 +64,7 @@ export default {
         {
           title: 'Interoperability of Cyberinfrastructure Workshop: Front-End Technologies',
           year: 2018,
-          desc: 'Hands on Deep Learning with Keras',
+          desc: '10 minute talk on microservices, serverless architecture, and front end technologies',
           tags: 'web technology, data visualization',
           location: 'McGill University',
           lesson: '',
@@ -61,7 +72,7 @@ export default {
         {
           title: 'Embracing Web Technology for more Open and Collaborative Science.',
           year: 2017,
-          desc: 'Embracing Web Technology for more Open and Collaborative Science.',
+          desc: 'One hour seminar about my recent work.',
           tags: 'web technology, data visualization, citizen science',
           location: 'National Institute of Health (NIH), Bethesda MD',
           lesson: '',

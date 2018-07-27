@@ -5,9 +5,9 @@
         <div class="sidebar collapse show" id="sidebar" data-background-color="white" data-active-color="danger">
         	<div class="sidebar-wrapper">
                 <div class="logo">
-                    <a href="/" class="simple-text">
+                    <router-link to="/" class="simple-text">
                         Anisha Keshavan
-                    </a>
+                    </router-link>
                 </div>
 
                 <ul class="nav">
@@ -89,15 +89,19 @@
                         <span v-else> <i class="ti-menu"></i> </span>
                     </button>
                     <a class="simple-text routename mr-3">{{routeName}}</a>
-                    <form class="form-inline" style="display: inline;" v-if="routeName=='Projects'">
-                      <input id="searchProject" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <form class="form-inline" style="display: inline;"
+                     v-if="routeName!='Hello! I\'m Anisha' && routeName!='CV'">
+                      <input id="searchProject" class="form-control mr-sm-2"
+                       type="search" placeholder="Search" aria-label="Search"
+                       v-model="filter"
+                      >
                       <!--<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>-->
                     </form>
                 </div>
             </div>
         </nav>
         <transition name="slide-fade" mode="out-in">
-          <router-view></router-view>
+          <router-view :filter="filter"></router-view>
         </transition>
         </div>
     </div>
@@ -125,6 +129,7 @@ export default {
   data() {
     return {
       sidebarOpen: true,
+      filter: '',
     }
   },
   computed: {

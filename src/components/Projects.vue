@@ -2,7 +2,7 @@
   <div class="hello">
     <div class="row m-3">
       <div class="card-columns">
-        <card-title v-for="p in projects"
+        <card-title v-for="p in filteredProjects"
          :title="p.name"
          :subtitle="p.tags"
          :github_link="p.code"
@@ -25,6 +25,16 @@ import medulina from '../assets/img/Medulina.gif'
 export default {
   name: 'Projects',
   components: {cardTitle},
+  props: ['filter'],
+  computed: {
+    filteredProjects() {
+      return this.projects.filter(def =>
+        def.name.toLowerCase().includes(this.filter.toLowerCase()) ||
+        def.tags.toLowerCase().includes(this.filter.toLowerCase()) ||
+        def.description.toLowerCase().includes(this.filter.toLowerCase())
+      );
+    },
+  },
   data() {
     return {
       projects: [
