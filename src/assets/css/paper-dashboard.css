@@ -137,13 +137,20 @@ strong {
   color: #EB5E28; }
 
 /*     General overwrite     */
+html,
+body {
+    overflow-x: hidden;
+} 
+
 body {
   color: #66615b;
   font-size: 14px;
   font-family: 'Muli', Arial, sans-serif; }
-  body .wrapper {
-    min-height: 100vh;
-    position: relative; }
+
+body .wrapper {
+  /*min-height: 100vh;
+  position: fixed;*/
+}
 
 a {
   color: #68B3C8; }
@@ -2290,7 +2297,7 @@ textarea.form-control {
     margin-left: 0; }
 
   body > .navbar-collapse.collapse {
-    display: none !important;
+    /*display: none !important;*/
   }
 
   .card form [class*="col-"] {

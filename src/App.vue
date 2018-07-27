@@ -122,7 +122,7 @@ require('../node_modules/bootstrap/dist/css/bootstrap.min.css');
 require('./assets/css/demo.css');
 require('./assets/css/paper-dashboard.css');
 require('./assets/css/themify-icons.css');
-require('./assets/css/animate.min.css');
+//require('./assets/css/animate.min.css');
 
 export default {
   name: 'App',
@@ -172,6 +172,7 @@ export default {
     },
 
     handleResize() {
+      console.log('resizing');
       if (window.innerWidth >= 991) {
         this.showSidebar();
       }
