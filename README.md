@@ -1,6 +1,8 @@
-# anisha.pizza
+# anisha
 
 > anisha's personal website
+
+To set up travis to build, follow directions here: https://github.com/voorhoede/front-end-tooling-recipes/tree/master/travis-deploy-to-gh-pages
 
 ## Build Setup
 
