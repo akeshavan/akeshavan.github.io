@@ -7,7 +7,7 @@ cache:
   - node_modules
 branches:
   only:
-  - master
+  - vue_master
 notifications:
   email: false
 before_script:
