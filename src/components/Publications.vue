@@ -53,7 +53,7 @@ export default {
         {
           title: 'Human aging reduces the neurobehavioral influence of motivation on episodic memory.',
           authors: 'Geddes, M.R., Mattfeld, A.T., de los Angeles, C., Keshavan, A. and Gabrieli, J.D.',
-          link: '',
+          link: 'https://linkinghub.elsevier.com/retrieve/pii/S1053-8119(17)31077-7',
           year: '2017',
           journal: 'NeuroImage.',
           tags: 'neuroimaging, mental health',
@@ -61,7 +61,7 @@ export default {
         {
           title: 'Cluster Confidence Index: A Streamline‐Wise Pathway Reproducibility Metric for Diffusion‐Weighted MRI Tractography.',
           authors: 'Jordan, K.M., Amirbekian, B., Keshavan, A. and Henry, R.G.',
-          link: '',
+          link: 'https://onlinelibrary.wiley.com/doi/abs/10.1111/jon.12467',
           year: '2017',
           journal: 'Journal of Neuroimaging.',
           tags: 'neuroimaging',
@@ -69,7 +69,7 @@ export default {
         {
           title: 'Mindcontrol: A Web Application for Brain Segmentation Quality Control.',
           authors: 'Keshavan, A., Datta, E., McDonough, I., Madan, C., Henry, RG.',
-          link: '',
+          link: 'https://www.sciencedirect.com/science/article/pii/S1053811917302707?via%3Dihub',
           year: '2017',
           journal: 'Neuroimage.',
           tags: 'data visualization, citizen science, neuroimaging, medical imaging',
@@ -77,7 +77,7 @@ export default {
         {
           title: 'Interactive Online Brain Shape Visualization.',
           authors: 'Keshavan, Anisha, Arno Klein, and Benjamin Cipollini.',
-          link: '',
+          link: 'https://riojournal.com/article/12358/',
           year: '2017',
           journal: 'Research Ideas and Outcomes.',
           tags: 'data visualization, neuroimaging, hackathon',
@@ -85,7 +85,7 @@ export default {
         {
           title: 'Mindcontrol: Organize, quality control, annotate, edit, and collaborate on neuroimaging processing results',
           authors: 'Keshavan, Anisha, Esha Datta, Ian McDonough, Chris Madan.',
-          link: '',
+          link: 'https://riojournal.com/article/12276/',
           year: '2017',
           journal: 'Research Ideas and Outcomes.',
           tags: 'data visualization, neuroimaging, hackathon',
@@ -101,7 +101,7 @@ export default {
         {
           title: 'Power estimation for non-standardized multisite studies.',
           authors: 'Keshavan, A., et al. (50+ authors)',
-          link: '',
+          link: 'https://www.sciencedirect.com/science/article/pii/S1053811916002561?via%3Dihub',
           year: '2016',
           journal: 'Neuroimage.',
           tags: 'statistics, neuroimaging, brain morphometry',
@@ -109,7 +109,7 @@ export default {
         {
           title: 'Association of HLA Genetic Risk Burden With Disease Phenotypes in Multiple Sclerosis',
           authors: 'Isobe, Noriko, Keshavan, Anisha, et al.',
-          link: '',
+          link: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5081075/',
           year: '2016',
           journal: 'JAMA Neurology.',
           tags: 'multiple sclerosis, neuroimaging, brain morphometry, genetics',
@@ -117,7 +117,7 @@ export default {
         {
           title: 'Association Between Thoracic Spinal Cord Gray Matter Atrophy and Disability in Multiple Sclerosis.',
           authors: 'Schlaeger, R., Papinutto, N., Zhu, A. H., Lobach, I. V., Bevan, C. J., Bucci, M., ...  Keshavan, A. et al.',
-          link: '',
+          link: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6002864/',
           year: '2015',
           journal: 'JAMA Neurology.',
           tags: 'multiple sclerosis, spinal cord, medical imaging',
@@ -125,7 +125,7 @@ export default {
         {
           title: 'Predicting Treatment Response from Resting State fMRI Data: Comparison of Parcellation Approaches',
           authors: 'Satrajit S. Ghosh, Anisha Keshavan, Georg Langs',
-          link: '',
+          link: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6603596',
           year: '2013',
           journal: 'Pattern Recognition in Neuroimaging (PRNI), 2013 International Workshop on. 225-228.',
           tags: 'mental health, neuroimaging',
@@ -133,7 +133,7 @@ export default {
         {
           title: 'Predicting Treatment Response in Social Anxiety Disorder From Functional Magnetic Resonance Imaging',
           authors: 'Oliver Doehrmann, PhD; Satrajit S. Ghosh, PhD; Frida E. Polli, PhD; Gretchen O. Reynolds, BA; Franziska Horn, BSc; Anisha Keshavan, BSc, et al.',
-          link: '',
+          link: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3844518/',
           year: '2012',
           journal: 'JAMA Psychiatry',
           tags: 'mental health, neuroimaging',
