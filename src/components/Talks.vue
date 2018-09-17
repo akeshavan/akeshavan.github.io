@@ -43,7 +43,7 @@ export default {
           desc: 'Reproducibility in fMRI: Web-based neuroimaging tools for reproducible and collaborative research',
           tags: 'reproducibility, fmri, neuroimaging',
           location: 'Singapore',
-          lesson: 'https://docs.google.com/presentation/d/1LWWvbiycxBgl1n7KVpR-_XsA4wIbTPUXSRn0Xz-J2qk/edit?usp=sharing',
+          lesson: 'https://www.pathlms.com/ohbm/courses/8246/sections/12538/video_presentations/116217',
         },
         {
           title: 'Organization for Human Brain Mapping: Educational Course',
