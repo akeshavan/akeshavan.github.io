@@ -68,7 +68,7 @@ export default {
           location: 'MIT, Cambridge, MA',
         },
         {
-          title: 'Adjunt Professor',
+          title: 'Adjunct Professor',
           year: 2016,
           desc: 'Taught a Microsoft Excel class to first year undergraduates (3 1 unit courses).',
           tags: 'MS Excel',
