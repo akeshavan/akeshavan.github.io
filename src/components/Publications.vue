@@ -37,9 +37,17 @@ export default {
         {
           title: 'Combining citizen science and deep learning to amplify expertise in neuroimaging.',
           authors: 'Keshavan, A., Yeatman, J., and Rokem, A.,',
+          link: 'https://www.frontiersin.org/articles/10.3389/fninf.2019.00029/full',
+          year: '2019',
+          journal: 'Frontiers in Neuroinformatics',
+          tags: 'citizen science, deep learning, medical imaging, neuroimaging',
+        },
+        {
+          title: 'Interactive Publication: Combining citizen science and deep learning to amplify expertise in neuroimaging.',
+          authors: 'Keshavan, A., Yeatman, J., and Rokem, A.,',
           link: 'http://results.braindr.us',
           year: '2018',
-          journal: 'preprint (submitted)',
+          journal: 'Frontiers in Neuroinformatics',
           tags: 'citizen science, deep learning, medical imaging, neuroimaging',
         },
         {

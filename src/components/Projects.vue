@@ -41,7 +41,7 @@ export default {
         {'name': 'Swipes for Science',
          'tags': 'Citizen Science, Data Science',
          'code': 'https://github.com/SwipesForScience/SwipesForScience',
-         'demo': 'https://braindr.us',
+         'demo': 'https://swipesforscience.org',
          'image': 'https://braindrles.us/static/img/braindrles.1059410.gif',
          'description': `A framework for generating a citizen science game for large-scale data annotation`,
         },

@@ -38,6 +38,38 @@ export default {
     return {
       teaching: [
         {
+          title: 'University of Southern California',
+          year: 2019,
+          desc: 'From the Wet Lab to the Web Lab',
+          tags: 'open science, data science, neuroimaging',
+          location: 'Los Angeles, CA',
+          lesson: '',
+        },
+        {
+          title: 'Dipy Workshop - IU Bloomington',
+          year: 2019,
+          desc: 'Open datasets for dMRI',
+          tags: 'open science, data science, neuroimaging',
+          location: 'Bloomington, Indiana',
+          lesson: '',
+        },
+        {
+          title: 'Internet2 Global Summit',
+          year: 2019,
+          desc: 'Supporting Research Computing in the Cloud',
+          tags: 'cloud computing, data science',
+          location: 'Washington DC',
+          lesson: '',
+        },
+        {
+          title: 'CMU Open Science Symposium',
+          year: 2018,
+          desc: 'From the Wet Lab to the Web Lab',
+          tags: 'open science, data science, neuroimaging',
+          location: 'Pittsburgh, PA',
+          lesson: 'https://slides.com/anishakeshavan/deck',
+        },
+        {
           title: 'Organization for Human Brain Mapping: Symposium',
           year: 2018,
           desc: 'Reproducibility in fMRI: Web-based neuroimaging tools for reproducible and collaborative research',
