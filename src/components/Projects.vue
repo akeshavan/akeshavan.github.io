@@ -38,6 +38,13 @@ export default {
   data() {
     return {
       projects: [
+        {'name': 'Swipes for Science',
+         'tags': 'Citizen Science, Data Science',
+         'code': 'https://github.com/SwipesForScience/SwipesForScience',
+         'demo': 'https://braindr.us',
+         'image': 'https://braindrles.us/static/img/braindrles.1059410.gif',
+         'description': `A framework for generating a citizen science game for large-scale data annotation`,
+        },
         {'name': 'braindr',
          'tags': 'Citizen Science, Deep Learning, Medical Imaging',
          'code': 'https://github.com/OpenNeuroLab/braindr',
@@ -80,7 +87,7 @@ export default {
         'demo': 'https://braindrles.us',
         'publication': null,
         'description': 'A mobile optimized citizen science application for classifying stroke lesion segmentations',
-        'image': 'https://s3-us-west-1.amazonaws.com/braindrles/c0008s0029t01_slice_4.png'},
+        'image': 'https://braindrles.us/static/img/braindrles.1059410.gif'},
         {'name': 'whaledr',
          'tags': 'Citizen Science, Deep Learning, Oceanography',
          'code': 'https://github.com/akeshavan/whaledr',

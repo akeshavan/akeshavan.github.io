@@ -14,13 +14,12 @@
                   </h4>
                 </div>
                 <p class="description text-center">
-                    Postdoctoral Fellow
+                    Research Scientist
                     <br>
-                    University of Washington
+                    <a href="http://childmind.org/">Child Mind Institute</a>
                     <br>
-                    eScience Institute
+                    <a href="https://matter.childmind.org/">MATTER Lab</a>
                     <br>
-                    Institute for Neuroengineering
                 </p>
             </div>
             <hr>
@@ -48,10 +47,22 @@
           <div class="header">
             <h4 class="title">Education</h4>
             <p class="category">
-              Where I've Learned
+              Where I've Trained
             </p>
           </div>
           <div class="content">
+            <div class="typo-line mt-3">
+              <h6>
+                <p class="category">Postdoc<br>2017-2018</p>
+                Moore-Sloan Data Science Fellow
+              </h6>
+              <p class="text-muted">University of Washington</p>
+              <p class="">
+                <a href="https://escience.washington.edu/">eScience Institute</a> &
+                <a href="http://uwin.washington.edu/">Institute for Neuroengineering</a>
+              </p>
+            </div>
+
             <div class="typo-line mt-3">
               <h6 class="mb-2">
                 <p class="category">
