@@ -2,7 +2,7 @@
   <div class="hello container-fluid">
     <div class="row mt-3">
       <div class="col-12">
-        <iframe src="https://s3-us-west-2.amazonaws.com/akeshavan-mindcontrol/Anisha_CV_for_website.pdf"
+        <iframe src="https://s3-us-west-1.amazonaws.com/akeshavan-public/Anisha_CV_20190514.pdf"
         width="100%" style="height: calc(100vh - 100px);">
         </iframe>
       </div>
