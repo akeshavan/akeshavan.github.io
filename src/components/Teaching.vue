@@ -39,9 +39,25 @@ export default {
       teaching: [
         {
           title: 'Neurohackademy',
+          year: 2019,
+          desc: 'Taught Introduction to D3 at neurohackademy, a summer school for neuroimaging',
+          tags: 'javascript, data science, data visualization',
+          location: 'University of Washington, Seattle, WA',
+          lesson: 'https://anisha.pizza/nha_2019/'
+        },
+        {
+          title: 'Neurohackademy',
+          year: 2019,
+          desc: 'Taught Introduction to Docker at neurohackademy, a summer school for neuroimaging',
+          tags: 'docker, data science, reproducibility',
+          location: 'University of Washington, Seattle, WA',
+          lesson: 'http://slides.com/anishakeshavan/introduction-to-docker'
+        },
+        {
+          title: 'Neurohackademy',
           year: 2018,
           desc: 'Taught Introduction to D3 at neurohackweek, a summer school for neuroimaging',
-          tags: 'javascript, data science',
+          tags: 'javascript, data science, data visualization',
           location: 'University of Washington, Seattle, WA',
           lesson: 'https://akeshavan.github.io/nhw2017_d3/'
         },
@@ -49,14 +65,14 @@ export default {
           title: 'BrainHack School',
           year: 2018,
           desc: 'Taught Introduction to HTML, CSS, and Javascript (live coded), along with D3.',
-          tags: 'javascript, data science',
+          tags: 'javascript, data science, data visualization',
           location: 'University of Montreal, Montreal, Canada',
         },
         {
           title: 'Neurohackweek',
           year: 2017,
           desc: 'Taught Introduction to D3 at neurohackweek, a summer school for neuroimaging',
-          tags: 'javascript, data science',
+          tags: 'javascript, data science, data visualization',
           location: 'University of Washington, Seattle, WA',
           lesson: 'https://akeshavan.github.io/nhw2017_d3/'
         },

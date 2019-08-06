@@ -37,6 +37,14 @@ export default {
     return {
       teaching: [
         {
+          title: 'Sage Young Investigator',
+          year: 2019,
+          desc: 'Young investigator award for the Sage Assembly',
+          tags: 'open science, deep learning, citizen science, medical imaging',
+          location: 'Seattle, WA',
+          lesson: null,
+        },
+        {
           title: 'Amazon Web Services Cloud Credits for Research',
           year: 2018,
           desc: 'Awarded 15,000$ from AWS for research in human in the loop deep learning for crowdsourced image segmentation.',
