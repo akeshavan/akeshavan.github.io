@@ -14,11 +14,9 @@
                   </h4>
                 </div>
                 <p class="description text-center">
-                    Research Scientist
+                    Senior Data Scientist
                     <br>
-                    <a href="http://childmind.org/">Child Mind Institute</a>
-                    <br>
-                    <a href="https://matter.childmind.org/">MATTER Lab</a>
+                    <a href="http://www.octavebio.com/">Octave Bioscience</a>
                     <br>
                 </p>
             </div>
